@@ -63,6 +63,7 @@ ol {
 .result__video-container {
   position: relative;
   inline-size: 711px;
+  height: 386px;
   margin-bottom: 16px;
 }
 .result__video {
@@ -74,10 +75,11 @@ ol {
 }
 
 .content__list-container {
-  height: 310px;
+  height: 298px;
   max-width: 399px;
   overflow: auto;
   position: relative;
+  
 }
 .content__list-container:last-child {
   display: flex;
@@ -108,17 +110,20 @@ ol {
 .content__video-card-discriprion-container {
   display: flex;
   flex-grow: 2 auto;
+  
 }
 .content__video-card-title {
   color: #fff;
   font-family: Oswald, sans-serif;
-  padding: 2px 2px 5px;
+  margin: 0 0 6px;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
   text-overflow: ellipsis;
-  hyphens: auto;
+  overflow: hidden;
+  hyphens: none;
+  max-width: 196px;
 }
 .content__details {
   inline-size: 100%;
